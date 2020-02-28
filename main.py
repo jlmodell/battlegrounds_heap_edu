@@ -24,8 +24,8 @@ class BattleGroundsHeap:
     def __init__(self, numOfPlayers):
         super().__init__()
         self.players = {}
-        for x in range(1, numOfPlayers):
-            self.players[f'Player {x}'] = 40
+        for x in range(0, numOfPlayers):
+            self.players[f'Player {x+1}'] = 40
 
         self.battleground = []
 
