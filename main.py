@@ -37,7 +37,7 @@ class BattleGroundsHeap:
             self.heap.append(x)
             self.__floatUp(len(self.heap) - 1)  # len(self.heap) - 1 = index
 
-    def add(self, data):
+    def add(self, data): # data = tuple ("Player #", n=health)
         self.heap.append(data)
         self.__floatUp(len(self.heap) - 1)
 
