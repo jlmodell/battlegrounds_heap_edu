@@ -51,10 +51,10 @@ class BattleGroundsHeap:
     def rem(self):
         if len(self.heap) > 2:
             self.__swap(1, len(self.heap) - 1)
-            max = self.heap.remove()
+            max = self.heap.rem()
             self.__floatDown(1)
         elif len(self.heap) == 2:
-            max = self.heap.remove()
+            max = self.heap.rem()
         else:
             max = False
 
