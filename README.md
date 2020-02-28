@@ -20,7 +20,7 @@ class BattleGroundsHeap requires a numOfPlayers and will init n numOfPlayers wit
 
 sample output:
 
-`
+```
 How many battlers?		5
 Battlers: [('Player 1', 40), ('Player 2', 40), ('Player 3', 40), ('Player 4', 40)]
 Battlers: [('Player 3', 39), ('Player 2', 34), ('Player 1', 34), ('Player 4', 33)]
@@ -33,4 +33,4 @@ Battlers: [('Player 1', 11), ('Player 4', 10), ('Player 3', 11), ('Player 2', 8)
 Battlers: [('Player 4', 8), ('Player 1', 4), ('Player 3', 8), ('Player 2', 1)]
 Battlers: [('Player 4', 2), ('Player 1', 2)]
 Winner is ('Player 4', 1)
-`
+```
