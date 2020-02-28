@@ -21,16 +21,15 @@ class BattleGroundsHeap requires a numOfPlayers and will init n numOfPlayers wit
 sample output:
 
 ```
-How many battlers?		5
+How many battlers?		4
 Battlers: [('Player 1', 40), ('Player 2', 40), ('Player 3', 40), ('Player 4', 40)]
-Battlers: [('Player 3', 39), ('Player 2', 34), ('Player 1', 34), ('Player 4', 33)]
-Battlers: [('Player 3', 36), ('Player 2', 31), ('Player 1', 31), ('Player 4', 24)]
-Battlers: [('Player 1', 31), ('Player 2', 28), ('Player 3', 29), ('Player 4', 24)]
-Battlers: [('Player 1', 30), ('Player 2', 26), ('Player 3', 27), ('Player 4', 17)]
-Battlers: [('Player 2', 23), ('Player 1', 21), ('Player 3', 19), ('Player 4', 12)]
-Battlers: [('Player 2', 14), ('Player 1', 13), ('Player 3', 11), ('Player 4', 10)]
-Battlers: [('Player 1', 11), ('Player 4', 10), ('Player 3', 11), ('Player 2', 8)]
-Battlers: [('Player 4', 8), ('Player 1', 4), ('Player 3', 8), ('Player 2', 1)]
-Battlers: [('Player 4', 2), ('Player 1', 2)]
-Winner is ('Player 4', 1)
+Battlers: [('Player 3', 40), ('Player 4', 37), ('Player 2', 39), ('Player 1', 31)]
+Battlers: [('Player 4', 36), ('Player 3', 33), ('Player 2', 35), ('Player 1', 29)]
+Battlers: [('Player 4', 30), ('Player 3', 28), ('Player 2', 26), ('Player 1', 25)]
+Battlers: [('Player 3', 26), ('Player 4', 21), ('Player 2', 20), ('Player 1', 20)]
+Battlers: [('Player 3', 20), ('Player 1', 20), ('Player 2', 17), ('Player 4', 12)]
+Battlers: [('Player 3', 18), ('Player 1', 12), ('Player 2', 13), ('Player 4', 8)]
+Battlers: [('Player 3', 9), ('Player 1', 6), ('Player 2', 6), ('Player 4', 1)]
+Battlers: [('Player 1', 6), ('Player 3', 4), ('Player 2', 3)]
+Winner is ('Player 1', 6)
 ```
